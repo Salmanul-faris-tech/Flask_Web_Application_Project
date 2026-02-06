@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+            <h2>Welcome Back 👋</h2>
+            <p class="subtitle">Login to your account</p>
+            {% if error %}
+            <p class="error">{{ error }}</p>
+            {% endif %}
+            <form action="{{ url_for('index') }}" method="post">
+                <div class="input-box">
+                    <input type="text" name="username" required>
+                    <label for="username">Username</label>
+                </div>
+
+                <div class="input-box">
+                    <input type="password" name="password" required>
+                    <label for="password">Password</label>
+                </div>
+
+                <button type="submit">Login</button>
+            </form>
+
+            <p class="switch">
+                Don’t have an account?
+                <a href="{{url_for('register')}}">Create one</a>
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
