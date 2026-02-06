@@ -100,7 +100,6 @@ Rate limiting protects the login page from brute-force attempts.
 
 ### Screenshots
 
-```
 <img width="1920" height="873" alt="Home _ Welcome - Google Chrome 06-02-2026 15_32_59" src="https://github.com/user-attachments/assets/a3fb14a7-1572-4d8a-be17-f8050269d8c6" />
 
 <img width="1920" height="877" alt="Home _ Welcome - Google Chrome 06-02-2026 15_33_57" src="https://github.com/user-attachments/assets/198677ab-5836-4b5f-b672-d6316edd3ce4" />
@@ -109,7 +108,6 @@ Rate limiting protects the login page from brute-force attempts.
 
 <img width="1920" height="865" alt="Home _ Welcome - Google Chrome 06-02-2026 15_42_01" src="https://github.com/user-attachments/assets/36c4b875-eb3a-4ac3-86a4-43ff768d6406" />
 
-```
 
 ### Live Demo
 
